@@ -1,0 +1,12 @@
+<div class="container">
+  <div class="jumbotron">
+    <h1>Edit post</h1>
+  </div>
+
+<%= render "layouts/form" %>
+<p><%= link_to "Delete", post_path(@post),
+  :data =>
+    {:confirm => "Are you sure?",
+     :method => "delete"} %></p>
+<p><%= link_to "Return to product page", post_path %><p>
+</div>

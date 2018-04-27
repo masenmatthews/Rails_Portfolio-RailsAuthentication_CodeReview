@@ -7,6 +7,13 @@
 ## Description
   This site is designed to act as my personal portfolio so that I can showcase my coding skills and projects to potential employers. It will have spaces for projects, blog posts, contact information, and an 'about me' section.
 
+## The Big Picture
+  Last April, I had no real ambitions or aspirations related to tech or web development. Learning to code has always been something that's sat in the back of my mind as something I would like to do if I had an infinite amount of free time, ambition, motivation, or a combination of those things. At that time, I was a few weeks away from finishing college with a degree in sociology and a strong desire to continue on to law school in hopes of being service-oriented defense attorney with a strong passion to help those who needed assistance the most.
+
+  Long story short, a lot of things have changed in the past year. I graduated from college and moved out of my spacious, cheap apartment in Northern Idaho into a house in Portland with a bunch of people that I didn't know. Shortly after that, I got a job at a law firm and came to the quick realization that the career path would probably make me miserable. If it didn't, the crippling student debt that came along with getting a J.D. would. After a matter of days working at that law firm, I turned my back on law school and decided to try something else.
+
+  
+
 ## Motivation
   The central motivation behind this project is to create a portfolio that adequately showcases some of the projects that I've completed during my time at Epicodus. It is also designed to survive past my time in code school, which means that it will be continually updated with new projects, updates, blog posts, and so on. Put simply,I want to jump into the world of tech on a professional level and this site will be used to demonstrate my qualifications and learning progressions.
 

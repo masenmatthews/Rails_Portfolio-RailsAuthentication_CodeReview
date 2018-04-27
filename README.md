@@ -14,9 +14,7 @@
 
   At this point, it may seem like I decided to attend code school and embark on this journey on an impulsive whim. This is true, but being in your early 20's is nice because it allows you to make these kinds of impulsive decisions. The tuition wasn't too expensive, I didn't have a great job that I was leaving, and I didn't have a family or relationship to support. I knew I might hate coding, but at least I'd be learning and that's a lot better than getting screamed at through a phone and spending my days putting away files in a sterile, lifeless office.
 
-  Luckily, I've come to find that I really do enjoy coding. In a lot of ways, it's perfect because it combines 
-
-
+  Luckily, I've come to find that I really do enjoy coding. In a lot of ways, it acts as an avenue that combines pieces of different things that I greatly enjoy in a unique way. There's a creative aspect, which is appealing to me as a long-time guitarist and someone with a background in radio. There's a logic-driven component, which would've been a key part of being an attorney. Beyond that, I get the satisfaction of organizing and designing blocks of code and design elements. Perhaps most importantly, I can listen to music and/or public radio while I code all day and that's really awesome. It's the little things that count the most.
 
 ## Motivation
   The central motivation behind this project is to create a portfolio that adequately showcases some of the projects that I've completed during my time at Epicodus. It is also designed to survive past my time in code school, which means that it will be continually updated with new projects, updates, blog posts, and so on. Put simply,I want to jump into the world of tech on a professional level and this site will be used to demonstrate my qualifications and learning progressions.

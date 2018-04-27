@@ -1,5 +1,5 @@
 Rails.application.routes.draw do
-  root :to => 'layouts#index'
+  root :to => 'home#index'
 
   resources :posts do
     resources :comments

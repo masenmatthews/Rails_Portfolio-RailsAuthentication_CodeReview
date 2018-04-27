@@ -10,15 +10,21 @@
 ## Motivation
   The central motivation behind this project is to create a portfolio that adequately showcases some of the projects that I've completed during my time at Epicodus. It is also designed to survive past my time in code school, which means that it will be continually updated with new projects, updates, blog posts, and so on. Put simply,I want to jump into the world of tech on a professional level and this site will be used to demonstrate my qualifications and learning progressions.
 
-
-
 ## Setup/Installation Requirements
+  This project can be installed and viewed by following these steps:
+    1. Clone GitHub repository to desktop or desired directory
+    2. Open the terminal and navigate to the project directory
+    3. Run $ bundle or $ bundle install in the terminal
+
 
 ## Specifications
+
 
 ## Future expansion
 
 ## Technologies Used
+  This project utilizes the following technologies:
+    -Ruby On Rails
 
 ## Known Bugs and Issues
 

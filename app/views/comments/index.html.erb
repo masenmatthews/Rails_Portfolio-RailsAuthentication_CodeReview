@@ -1,0 +1,11 @@
+<div class="container">
+
+<ul>
+  <% @posts.each do |single_post| %>
+    <li><%= link_to single_post.post_title, edit_post_path(single_post) %></li>
+    <%= single_post.post_body %>
+  <% end %>
+</ul>
+
+<p><%= link_to "Add new post", new_post_path %></p>
+</div>

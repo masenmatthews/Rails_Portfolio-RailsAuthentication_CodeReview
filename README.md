@@ -5,7 +5,7 @@
 ### By Masen Matthews
 
 ## Description
-
+  This site is designed to act as my personal portfolio so that I can showcase my coding skills and projects to potential employers. It will have spaces for projects, blog posts, contact information, and an 'about me' section.
 
 ## Motivation
   The central motivation behind this project is to create a portfolio that adequately showcases some of the projects that I've completed during my time at Epicodus. It is also designed to survive past my time in code school, which means that it will be continually updated with new projects, updates, blog posts, and so on. Put simply,I want to jump into the world of tech on a professional level and this site will be used to demonstrate my qualifications and learning progressions.
@@ -15,10 +15,11 @@
     1. Clone GitHub repository to desktop or desired directory
     2. Open the terminal and navigate to the project directory
     3. Run $ bundle or $ bundle install in the terminal
-
+    4. Run $ rails db:create and $ rails db:migrate to establish database functionality
+    5. Run $ rails server
+    6. Navigate to localhost:3000 in Google Chrome or desired broweser to view the site
 
 ## Specifications
-
 
 ## Future expansion
 

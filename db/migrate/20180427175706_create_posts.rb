@@ -1,6 +1,6 @@
 class CreatePosts < ActiveRecord::Migration[5.2]
     def change
-      create_table :questions do |t|
+      create_table :posts do |t|
         t.column :user_id, :integer
         t.column :post_title, :string
         t.column :post_body, :string

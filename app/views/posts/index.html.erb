@@ -1,0 +1,11 @@
+<h2>Posts</h2>
+
+<% if @posts.any? %>
+  <ul>
+    <% @posts.each do |post| %>
+    <li><%= link_to post.post_title, post_path(post) %></li>
+    <% end %>
+  </ul>
+  <% else %>
+  <p>There are no posts yet!</p>
+  <% end %>

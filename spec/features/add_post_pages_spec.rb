@@ -10,7 +10,7 @@ describe "the add a post process" do
   end
 
   it "gives error when no name is entered" do
-    visit new_product_path
+    visit new_post_path
     click_on 'Create Post'
     expect(page).to have_content 'errors'
   end

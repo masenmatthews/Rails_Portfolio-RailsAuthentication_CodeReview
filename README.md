@@ -26,15 +26,22 @@
     3. Run $ bundle or $ bundle install in the terminal
     4. Run $ rails db:create and $ rails db:migrate to establish database functionality
     5. Run $ rails server
-    6. Navigate to localhost:3000 in Google Chrome or desired broweser to view the site
-
-## Specifications
+    6. Navigate to localhost:3000 in Google Chrome or desired browser to view the site
 
 ## Future expansion
+  Plans for further expansion include the following:
+    -Full test functionality
+    -An "about" section
+    -A "projects" section
+    -A "contact" section
+    -The ability to post pictures using Paperclip
+    -Admin authentication
+    -Styling advancements
 
 ## Technologies Used
   This project utilizes the following technologies:
     -Ruby On Rails
+    -Materialize (for CSS)
 
 ## Known Bugs and Issues
 

@@ -6,8 +6,8 @@ describe "the add a comment process" do
     fill_in 'Post title', :with => 'Test title'
     fill_in 'Post body', :with => 'Test body'
     click_on 'Create Post'
-
     expect(page).to have_content 'Test title'
+    
     click_on 'Test title'
     click_on 'Add new comment'
     fill_in 'Comment body', :with => 'Test comment'

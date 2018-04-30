@@ -6,7 +6,7 @@ describe "the add a post process" do
     fill_in 'Post title', :with => 'Test title'
     fill_in 'Post body', :with => 'Test body'
     click_on 'Create Post'
-    expect(page).to have_content 'Title title'
+    expect(page).to have_content 'Test title'
   end
 
   it "gives error when no name is entered" do

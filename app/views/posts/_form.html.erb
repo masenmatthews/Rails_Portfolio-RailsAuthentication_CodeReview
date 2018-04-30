@@ -1,11 +1,13 @@
 <%= render "layouts/errors", :object => @post %>
 
-<%= form_for @post do |f| %>
-  <%= f.label :post_title %>
-  <%= f.text_field :post_title %>
-  <br>
-  <%= f.label :post_body %>
-  <%= f.text_field :post_body %>
-  <br>
-  <%= f.submit %>
-<% end %>
+<div class="well">
+  <%= form_for @post do |f| %>
+    <%= f.label :post_title %>
+    <%= f.text_field :post_title %>
+    <br>
+    <%= f.label :post_body %>
+    <%= f.text_field :post_body %>
+    <br>
+    <%= f.submit %>
+  <% end %>
+</div>

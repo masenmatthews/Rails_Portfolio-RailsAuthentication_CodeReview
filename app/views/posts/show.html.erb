@@ -3,37 +3,28 @@
 </div>
 
 <div class="well">
+  <p><%= image_tag @post.image.url %></p>
+  <p><%= @post.post_body %></p>
+<!--If admin, below is visible -->
   <p><%= link_to "Edit post", edit_post_path(@post) %></p>
   <p><%= link_to "Return to posts", posts_path %></p>
-  <%= button_to "Delete post", {:controller => :posts, :action => 'destroy', :id => @post.id }, :method => :delete %>
-</div>
-<div class="well">
-  <div class="row">
-    <div class="col s12 m4 l10">
-      <p><%= image_tag @post.image.url %></p>
-    </div>
-    <div class="col s12 m4 l2">
-      <p><%= @post.post_body %></p>
-    </div>
-  </div>
+  <p><%= button_to "Delete post", {:controller => :posts, :action => 'destroy', :id => @post.id }, :method => :delete %></p>
 </div>
 
 <div class="well">
-  <% if @post.comments.any? %>
-    <ul>
-      <% @post.comments.each do |comment| %>
-        <div class="well">
-          <li>
-            <h4>Comment:
-              <%= comment.comment_body %></h4>
-            <%=link_to "Edit comment", edit_post_comment_path(@post, comment) %>
-            |
-          </li>
-        </div>
-      <% end %>
-    </ul>
-  <% else %>
-    <p>No comments - help improve our site by adding one!</p>
-  <% end %>
-  <p><%= link_to "Add new comment", new_post_comment_path(@post) %></p>
+<% if @post.comments.any? %>
+  <h4>Comments</h4>
+  <ul>
+    <% @post.comments.each do |comment| %>
+      <li>
+        <p><%= comment.comment_body %></p>
+        <%=link_to "Edit comment", edit_post_comment_path(@post, comment) %>
+        |
+      </li>
+    <% end %>
+  </ul>
+<% else %>
+  <p>No comments - help improve our site by adding one!</p>
+<% end %>
+<p><%= link_to "Add new comment", new_post_comment_path(@post) %></p>
 </div>

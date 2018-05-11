@@ -8,7 +8,7 @@
   <% if @posts.any? %>
     <ul>
       <% @posts.each do |post| %>
-      <li><%= link_to post.post_title, post_path(post) %></li>
+      <li class="blog-title"><%= link_to post.post_title, post_path(post) %></li>
       <% end %>
     </ul>
     <% else %>

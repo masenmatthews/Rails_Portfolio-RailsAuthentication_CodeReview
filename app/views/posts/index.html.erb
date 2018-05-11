@@ -2,16 +2,25 @@
   <h2 class="title-head">Masen's Portfolio</h1>
 </div>
 
-<div class="card-content blue-grey white-text z-depth-3">
-<p><%= link_to "New post", new_post_path %></p>
-
-  <% if @posts.any? %>
-    <ul>
-      <% @posts.each do |post| %>
-      <li class="blog-title"><%= link_to post.post_title, post_path(post) %></li>
+<div class="row">
+  <div class="col s7 push-s5">
+    <div class="card-content blue-grey white-text z-depth-3">
+      <p>Test</p>
+    </div>
+  </div>
+ <div class="col s5 pull-s7">
+  <div class="card-content blue-grey white-text z-depth-3">
+    <% if @posts.any? %>
+      <ul>
+        <% @posts.each do |post| %>
+        <li class="blog-title"><%= link_to post.post_title, post_path(post) %></li>
+        <% end %>
+      </ul>
+      <% else %>
+      <p>There are no posts yet!</p>
       <% end %>
-    </ul>
-    <% else %>
-    <p>There are no posts yet!</p>
-    <% end %>
+  </div>
 </div>
+
+</div>
+<p><%= link_to "New post", new_post_path %></p>

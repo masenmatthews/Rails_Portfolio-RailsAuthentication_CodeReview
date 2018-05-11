@@ -3,6 +3,16 @@
 @import "bootstrap";
 @import "materialize";
 
+body {
+  background-color: #424242;
+}
+// gray darken-3
+
+img {
+  max-width: 300px;
+  max-height: 400px;
+}
+
 .title-head {
   text-align: center;
 }
@@ -16,11 +26,6 @@
   color: 00695c;
 }
 // teal-darken-3
-
-body {
-  background-color: #424242;
-}
-// gray darken-3
 
 .contact-bullet {
   text-align: center;

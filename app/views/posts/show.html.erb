@@ -9,6 +9,10 @@
         :action => 'destroy', :id => @post.id }, :method => :delete %>
 </div>
 
+<p><%= image_tag @post.image.url %></p>
+<p><%= @post.post_body %></p>
+
+
 <div class="well">
   <% if @post.comments.any? %>
     <ul>

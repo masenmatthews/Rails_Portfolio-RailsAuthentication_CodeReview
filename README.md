@@ -31,17 +31,13 @@
 ## Future expansion
   Plans for further expansion include the following:
     -Full test functionality
-    -An "about" section
-    -A "projects" section
-    -A "contact" section
-    -The ability to post pictures using Paperclip
     -Admin authentication
     -Styling advancements
 
 ## Technologies Used
   This project utilizes the following technologies:
     -Ruby On Rails
-    -Materialize (for CSS)
+    -Materialize (for styling)
 
 ## Known Bugs and Issues
 

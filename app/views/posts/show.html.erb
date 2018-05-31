@@ -1,8 +1,8 @@
-<div class="card-content blue-grey white-text z-depth-3">
+<div class="card-content cyan lighten-1 white-text z-depth-3">
   <h2 class="post-detail-head"><%= @post.post_title %></h2>
 </div>
 
-<div class="card-content blue-grey white-text z-depth-3">
+<div class="card-content cyan lighten-1 white-text z-depth-3">
   <p><%= image_tag @post.image.url %></p>
   <p><%= @post.post_body %></p>
 <!--If admin, below is visible -->
@@ -11,7 +11,7 @@
   <p><%= button_to "Delete post", {:controller => :posts, :action => 'destroy', :id => @post.id }, :method => :delete %></p>
 </div>
 
-<div class="card-content blue-grey white-text z-depth-3">
+<div class="card-content cyan lighten-1 white-text z-depth-3">
 <% if @post.comments.any? %>
   <h4>Comments</h4>
   <ul>
